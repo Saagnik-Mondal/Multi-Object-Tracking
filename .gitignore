@@ -1,8 +1,5 @@
 # Datasets and large items
 archive-2/
-runs/
-*.mp4
-*.avi
 
 # Models
 *.pt
@@ -17,3 +14,6 @@ __pycache__/
 venv/
 env/
 .env
+
+# Note: We are allowing videos and output folders (runs/) 
+# because they are small enough for this specific project.
